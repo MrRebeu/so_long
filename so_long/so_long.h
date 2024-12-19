@@ -34,6 +34,7 @@ typedef struct s_game {
     int     collected;      // Nombre d'items collectés
     void    *mlx;           // Pour plus tard avec la MLX
     void    *window;        // Pour plus tard avec la MLX
+    t_images imgs;
 } t_game;
 
 # define UP      1
